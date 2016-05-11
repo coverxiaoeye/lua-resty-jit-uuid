@@ -1,9 +1,17 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "lua-resty-jit-uuid"
-version = "0.0.3-0"
+version = "0.0.4-1"
+-- LuaDist source
 source = {
-  url = "https://github.com/thibaultCha/lua-resty-jit-uuid",
-  tag = "0.0.3"
+  url = "git://github.com/LuaDist2/lua-resty-jit-uuid.git",
+  tag = "0.0.4-1"
 }
+-- Original source
+-- source = {
+--   url = "git://github.com/thibaultCha/lua-resty-jit-uuid",
+--   tag = "0.0.4"
+-- }
 description = {
   summary = "Fast and dependency-free uuid generation for OpenResty/LuaJIT",
   detailed = [[
@@ -26,4 +34,3 @@ build = {
     ["resty.jit-uuid"] = "lib/resty/jit-uuid.lua"
   }
 }
-
